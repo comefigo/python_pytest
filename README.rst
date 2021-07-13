@@ -49,6 +49,12 @@ TDDBC for Python with Pytest
 
 のように正常終了すればOKです
 
+セットアップ(VSCode向け)
+==========
+
+1. Docker、VSCode(拡張機能Remote Development)を導入します。
+2. VSCodeの「Reopen in container」で必要な開発環境が起動します。
+
 ライセンス
 ==========
 

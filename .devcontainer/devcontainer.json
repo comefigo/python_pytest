@@ -1,0 +1,13 @@
+{
+	"name": "TDDBC for Python with Pytest",
+	"dockerFile": "Dockerfile",
+	"context": "..",
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance"
+	],
+	"appPort": 3000,
+	"containerEnv": {},
+	"postCreateCommand": "pip3 install -r requirements.txt",
+	"shutdownAction": "stopContainer"
+}
